@@ -117,8 +117,7 @@
     text-decoration: none;
     cursor: pointer;
     border: 1px solid rgb(236, 236, 236) ;
-    max-height: 50px ;
-    min-height: 20px  ;
+   
     margin: 0 auto;
 }
 
@@ -148,21 +147,6 @@
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header_nav-top {
     min-height: 50px;
     
@@ -172,7 +156,7 @@
     justify-content: space-around;
     color: white;
     list-style-type: none;
-    font-size: 2.3vmin;
+    font-size: 1.8vh;
     max-width: 100%;
     border-bottom: 0.25rem solid black;
     padding: 0 20px;
@@ -183,15 +167,14 @@
   
 }
 
-
 .header_nav-bottom {
    min-height: 50px;
     display: flex;
     color: black;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
-    font-size: 2vmin;
+    font-size: 1.6vh;
     max-width: 100%;
     border: 1px solid black;
     padding: 0 20px;
@@ -208,4 +191,72 @@
 
 .header_nav li {
     cursor: pointer;
+}
+
+
+ .main-container{
+    max-width: 100%;
+    min-width: 900px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+.fotter_top{
+    margin: 0 auto;
+    padding: 0 20px;
+    height: auto;
+    max-width: 1280px;
+    min-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.fotter_top__logo{
+ width: 200px;
+ height: 100px;
+ padding: 5px;
+} 
+
+.footer{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.fotter_top__market-one , .fotter_top__market-two , .fotter_top__comunication-one , .fotter_top__comunication-two{
+    list-style-type: none;
+    cursor: pointer;
+}
+.fotter_bottom{
+    margin: 0 auto;
+    padding: 0 20px;
+    height: auto;
+    max-width: 100%;
+    min-width: 900px;
+    background-color:rgb(31, 12, 37);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 10vw;
+  padding-right: 10vw;
+
+}
+.fotter_bottom__contact a{
+    font-size: 1vw;
+    max-width: 240px;
+    min-width: 20px;
+    padding: 0px 20px;
+    color: pink;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+  
+}
+.fotter_bottom__contact{
+    padding: 5px;
 }
