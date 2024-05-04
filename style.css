@@ -14,7 +14,7 @@
 }
 
 .header_main {
-   padding: 10px;
+   padding: ;
     width: 100%;
     height: auto;
     display: flex;
@@ -115,23 +115,26 @@ padding-right: 5px;
 
 
 .header_main-communiti__nav__login{
-width:  4rem;
+width: 3rem;
 cursor: pointer;
-padding: 5px;
+
 }
 
 
 
 .header_main-communiti__nav__shopping-cart{
-    width: 3.5rem;
+    width: 3rem;
     background-color:white ;
     cursor: pointer;
-    padding: 5px;
+   
+    
 }
 
 
 
-
+.header_main-communiti__nav-enter{
+    align-items: center;
+}
 
 
 
