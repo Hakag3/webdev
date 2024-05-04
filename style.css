@@ -114,7 +114,7 @@ padding-right: 5px;
 
 
 
-.header_main-communiti__nav__login{
+.header_main-communiti__nav-enter__login{
 width: 3rem;
 cursor: pointer;
 
@@ -122,7 +122,7 @@ cursor: pointer;
 
 
 
-.header_main-communiti__nav__shopping-cart{
+.header_main-communiti__nav-enter__shopping-cart{
     width: 3rem;
     background-color:white ;
     cursor: pointer;
