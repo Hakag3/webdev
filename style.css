@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+* a {
+    text-decoration: none;
+}
 
 
 .header_hzchtoeto {
@@ -34,7 +37,7 @@
 }
 
 .header_main__logo-veb {
-   min-width: 50px;
+    min-width: 50px;
     width: 200px;
     height: auto;
     align-items: center;
@@ -47,7 +50,7 @@
 
 .header_main-communiti__nav_search-form {
     width: 300px;
-   min-height: 40px;
+    min-height: 40px;
     display: inline-flex;
     overflow: hidden;
     border-radius: 0.2rem;
@@ -106,7 +109,7 @@
 
 
 .header_main-communiti__nav__number {
-   font-size: 1vw;
+    font-size: 1vw;
     max-width: 240px;
     min-width: 20px;
     background-color: white;
@@ -116,8 +119,8 @@
     color: pink;
     text-decoration: none;
     cursor: pointer;
-    border: 1px solid rgb(236, 236, 236) ;
-   
+    border: 1px solid rgb(236, 236, 236);
+
     margin: 0 auto;
 }
 
@@ -149,7 +152,7 @@
 
 .header_nav-top {
     min-height: 50px;
-    
+
     background-color: rgb(31, 12, 37);
     display: flex;
     align-items: center;
@@ -162,13 +165,13 @@
     padding: 0 20px;
     margin: 0 auto;
     padding-left: 10vw;
-  padding-right: 10vw;
-  min-width: 900px;
-  
+    padding-right: 10vw;
+    min-width: 900px;
+
 }
 
 .header_nav-bottom {
-   min-height: 50px;
+    min-height: 50px;
     display: flex;
     color: black;
     align-items: center;
@@ -179,9 +182,9 @@
     border: 1px solid black;
     padding: 0 20px;
     margin: 0 auto;
-  padding-left: 10vw;
-  padding-right:10vw;
-  min-width: 900px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    min-width: 900px;
 }
 
 .header_nav {
@@ -194,18 +197,7 @@
 }
 
 
- .main-container{
-    max-width: 100%;
-    min-width: 900px;
-    background-color: black;
-    margin: 0 auto;
-    padding: 0 20px;
-    height: 1000px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-} 
-.fotter_top{
+.fotter_top {
     margin: 0 auto;
     padding: 0 20px;
     height: auto;
@@ -214,49 +206,114 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-}
-.fotter_top__logo{
- width: 200px;
- height: 100px;
- padding: 5px;
-} 
 
-.footer{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-.fotter_top__market-one , .fotter_top__market-two , .fotter_top__comunication-one , .fotter_top__comunication-two{
+
+.fotter_top__logo {
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+}
+
+.footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.fotter_top__market-one, .fotter_top__market-two, .fotter_top__comunication-one, .fotter_top__comunication-two {
     list-style-type: none;
-    cursor: pointer;
+
 }
-.fotter_bottom{
+
+.fotter_bottom {
     margin: 0 auto;
     padding: 0 20px;
     height: auto;
     max-width: 100%;
     min-width: 900px;
-    background-color:rgb(31, 12, 37);
+    background-color: rgb(31, 12, 37);
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
     color: white;
-    padding-left: 10vw;
-  padding-right: 10vw;
+    padding-left: 24vw;
+    padding-right: 24vw;
 
 }
-.fotter_bottom__contact a{
-    font-size: 1vw;
-    max-width: 240px;
+
+.fotter_bottom__contact a {
+    font-size: 0.9vw;
+    max-width: 200px;
     min-width: 20px;
     padding: 0px 20px;
     color: pink;
     text-decoration: none;
     cursor: pointer;
     margin: 0 auto;
-  
+
 }
-.fotter_bottom__contact{
+
+.fotter_bottom__contact {
     padding: 5px;
 }
+
+.fotter_bottom__bank-one, .fotter_bottom__bank-two {
+    width: 100px;
+    height: 60px;
+    padding: 5px;
+
+}
+
+.fotter_bottom__soc img {
+    max-height: 30px;
+
+
+
+}
+
+.fotter_bottom {
+    justify-content: space-between;
+}
+
+
+.fotter_bottom__soc {
+    margin-right: 25vw;
+}
+
+.header_nav-bottom a {
+    color: black;
+}
+
+.header_nav-top a {
+    color: white;
+
+}
+
+.fotter_top a {
+    color: black;
+}
+
+
+.splide {
+    max-width: 100%;
+    min-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+
+
+}
+
+
+.splide__slide {
+  
+    
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+

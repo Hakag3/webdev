@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> TicTime</title>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo.png">
-
 </head>
 
 <body>
-    <script src="main.js"></script>
+
 
     <header>
         <div class="header_hzchtoeto">
@@ -44,40 +44,24 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div class="header_nav">
             <ul class="header_nav-top">
-                <li>БРЕНДЫ</li>
-                <li>УМНЫЕ ЧАСЫ</li>
-                <li>МУЖСКИЕ ЧАСЫ</li>
-                <li>ЖЕНСКИЕ ЧАСЫ</li>
-                <li>АКСЕССУАРЫ</li>
-                <li>КОНТАКТЫ</li>
+                <li><a href="#">БРЕНДЫ</a></li>
+                <li><a href="#">УМНЫЕ ЧАСЫ</a></li>
+                <li><a href="#">МУЖСКИЕ ЧАСЫ</a></li>
+                <li><a href="#">ЖЕНСКИЕ ЧАСЫ</a></li>
+                <li><a href="#">АКСЕССУАРЫ</a></li>
+                <li><a href="#">КОНТАКТЫ</a></li>
             </ul>
             <ul class="header_nav-bottom">
-                <li>ОПЛАТА И ДОСТАВКА</li>
-                <li>ДЛЯ ЮР ЛИЦ</li>
-                <li>ГАРАНТИЯ</li>
-                <li>РЕМОНТ</li>
-                <li>СКИДКА НА ТОВАРЫ</li>
-                <li>АДРЕССА МАГАЗИНОВ</li>
-                <li>О ЧАСАХ</li>
-                <li>О КОМПАНИИ</li>
+                <li><a href="#">ОПЛАТА И ДОСТАВКА</a></li>
+                <li><a href="#">ДЛЯ ЮР ЛИЦ</a></li>
+                <li><a href="#">ГАРАНТИЯ</a></li>
+                <li><a href="#">РЕМОНТ</a></li>
+                <li><a href="#">СКИДКА НА ТОВАРЫ</a></li>
+                <li><a href="#">АДРЕССА МАГАЗИНОВ</a></li>
+                <li><a href="#">О ЧАСАХ</a></li>
+                <li><a href="#">О КОМПАНИИ</a></li>
             </ul>
 
         </div>
@@ -86,9 +70,41 @@
 
 
     <main>
-        <div class="main-container">
 
-        </div>
+
+
+
+
+
+
+
+
+        <section id="mySlider" class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                       <source media="(max-width: 430px)" src="RUS-TEL.jpg">
+                        <img src="RUS.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="BRATVA.jpg" alt="">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="SASAI.jpg" alt="">
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+        <script src="main.js"></script>
     </main>
 
 
@@ -99,41 +115,46 @@
                 <div>
                     <img src="logo-foot.png" class="fotter_top__logo"></img>
                 </div>
-                
-                    <ul class="fotter_top__market-one">
-                    <li>МУЖСКИЕ ЧАСЫ</li>
-                    <li>ЖЕНСКИЕ ЧАСЫ</li>
-                    <li>УМНЫЕ ЧАСЫ</li>    
-                    </ul>
-                    <ul class="fotter_top__market-two">
-                    <li>БРЕНДЫ</li>
-                    <li>АКСЕССУАРЫ</li>
-                    <li>КОНТАКТЫ</li>    
-                    </ul>
-                
+
+                <ul class="fotter_top__market-one">
+                    <li><a href="#">МУЖСКИЕ ЧАСЫ</a></li>
+                    <li><a href="#">ЖЕНСКИЕ ЧАСЫ</a></li>
+                    <li><a href="#">УМНЫЕ ЧАСЫ</a></li>
+                </ul>
+                <ul class="fotter_top__market-two">
+                    <li><a href="#">БРЕНДЫ</a></li>
+                    <li><a href="#">АКСЕССУАРЫ</a></li>
+                    <li><a href="#">КОНТАКТЫ</a></li>
+                </ul>
+
                 <ul class="fotter_top__comunication-one">
-                    <li>ОПЛАТА И ДОСТАВКА</li>
-                    <li>ДЛЯ ЮР ЛИЦ</li>
-                    <li>ГАРАНТИЯ</li>
-                    <li>РЕМОНТ</li>
+                    <li><a href="#">ОПЛАТА И ДОСТАВКА</a></li>
+                    <li><a href="#">ДЛЯ ЮР ЛИЦ</a></li>
+                    <li><a href="#">ГАРАНТИЯ</a></li>
+                    <li><a href="#">РЕМОНТ</a></li>
                 </ul>
                 <ul class="fotter_top__comunication-two">
-                    <li>СКИДКА НА ТОВАРЫ</li>
-                    <li>АДРЕССА МАГАЗИНОВ</li>
-                    <li>О ЧАСАХ</li>
-                    <li>О КОМПАНИИ</li>
+                    <li><a href="#">СКИДКА НА ТОВАРЫ</a></li>
+                    <li><a href="#">АДРЕССА МАГАЗИНОВ</a></li>
+                    <li><a href="#">О ЧАСАХ</a></li>
+                    <li><a href="#">О КОМПАНИИ</a></li>
                 </ul>
             </div>
             <div class="fotter_bottom">
                 <p class="fotter_bottom__contact">
                     <a href="tel:+88805050015">8(880) 505 0015</a>
                 </p>
-                <img class="fotter_bottom__soc1">vk</img>
-                <img class="fotter_bottom__soc2">od</img>
-                <img class="fotter_bottom__soc3">tg</img>
-                <img class="fotter_bottom__soc4">yt</img>
-                <img class="fotter_bottom__bank1">sber</img>
-                <img class="fotter_bottom__bank2">tinc</img>
+
+                <div class="fotter_bottom__soc">
+                    <img src="facebook.png" class="fotter_bottom__soc-one"></img>
+                    <img src="vk.png" class="fotter_bottom__soc-two"></img>
+                    <img src="Twitter (1).png" class="fotter_bottom__soc-three"></img>
+                </div>
+                <div class="fotter_bottom__bank">
+                    <img src="bankMC.png" class="fotter_bottom__bank-one"></img>
+                    <img src="bankVisa.png" class="fotter_bottom__bank-two"></img>
+                </div>
+
             </div>
         </div>
     </footer>
