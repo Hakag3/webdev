@@ -15,13 +15,13 @@
     background-color: hsl(0, 0%, 10%);
     width: 100%;
     height: 30px;
-    min-width: 900px;
+    min-width: 300px;
 }
 
 .header_main {
     padding: 0 20px;
-    max-width: 1280px;
-    min-width: 900px;
+    max-width: 70%;
+    min-width: 300px;
     height: auto;
     display: flex;
     margin: 0 auto;
@@ -122,7 +122,7 @@
     text-decoration: none;
     cursor: pointer;
     border: 2px solid rgb(236, 236, 236);
-border-radius: 20px;
+    border-radius: 20px;
     margin: 0 auto;
 }
 
@@ -155,7 +155,7 @@ border-radius: 20px;
 }
 
 .header_nav-top {
-    min-height: 50px;
+   height: 50px;
 
     background-color: rgb(31, 12, 37);
     display: flex;
@@ -170,12 +170,12 @@ border-radius: 20px;
     margin: 0 auto;
     padding-left: 10vw;
     padding-right: 10vw;
-    min-width: 900px;
+    min-width: 300px;
 
 }
 
 .header_nav-bottom {
-    min-height: 50px;
+    height: 50px;
     display: flex;
     color: black;
     align-items: center;
@@ -188,7 +188,7 @@ border-radius: 20px;
     margin: 0 auto;
     padding-left: 10vw;
     padding-right: 10vw;
-    min-width: 900px;
+    min-width: 300px;
 }
 
 .header_nav {
@@ -206,7 +206,7 @@ border-radius: 20px;
     padding: 0 20px;
     height: auto;
     max-width: 1280px;
-    min-width: 900px;
+    min-width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -223,7 +223,9 @@ border-radius: 20px;
 .footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+
 }
+
 
 .fotter_top__market-one, .fotter_top__market-two, .fotter_top__comunication-one, .fotter_top__comunication-two {
     list-style-type: none;
@@ -235,7 +237,7 @@ border-radius: 20px;
     padding: 0 20px;
     height: auto;
     max-width: 100%;
-    min-width: 900px;
+    min-width: 300px;
     background-color: rgb(31, 12, 37);
     display: flex;
 
@@ -299,51 +301,132 @@ border-radius: 20px;
 }
 
 
-.splide {
-    max-width: 100%;
-    min-width: 900px;
-    height: auto;
-    margin: 0 auto;
-    padding: 0 20px;
 
+
+
+
+.header_nav-top a:hover {
+    filter: brightness(80%);
+}
+
+.header_nav-bottom a:hover {
+    background-color: hsl(270, 6%, 90%);
+    border-radius: 20px;
 
 }
 
-
-.splide__slide {
-  
-    
-    height: auto;
-    margin: 0 auto;
-    padding: 0 0px;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.header_nav-top a:hover{
-   filter: brightness(80%);
-}
-
-.header_nav-bottom a:hover{
- background-color: hsl(270, 6%, 90%);
- border-radius: 20px;
- 
-}
-.fotter_top a:hover{
+.fotter_top a:hover {
     background-color: hsl(270, 6%, 90%);
     border-radius: 20px;
 }
-.fotter_bottom__soc a:hover{
+
+.fotter_bottom__soc a:hover {
     filter: brightness(80%);
 }
-.fotter_bottom__contact a:hover{
+
+.fotter_bottom__contact a:hover {
     filter: brightness(80%);
 }
-.header_main-communiti__nav__number:hover{
+
+.header_main-communiti__nav__number:hover {
     background-color: hsl(270, 6%, 90%);
     border-radius: 20px;
 }
-.header_main-communiti__nav-enter a:hover{
+
+.header_main-communiti__nav-enter a:hover {
     filter: brightness(90%);
+}
+
+
+
+
+.container{
+  height: 55vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+@media(max-width:480px){
+    .fotter_top__logo{
+        height: 0px;
+        width: 0px;
+
+    }
+    .fotter_bottom{
+        padding: 0px;
+    }
+    .fotter_bottom__soc{
+        margin: 0px;
+    }
+    .fotter_bottom__contact a{
+        font-size: 15px;
+    }
+    .fotter_bottom__bank img{
+        width: 50px;
+        height: 30px;
+    }
+    .header_main-name p{
+        font-size: 0px;
+    }
+    .header_main__logo-veb{
+width: 0px;
+height: 0px;
+    }
+.header_main-communiti__nav__number{
+    width: 0px;
+    height: 0px;
+    font-size: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.header_nav-bottom a{
+    font-size: 0px;
+}
+.header_hzchtoeto{
+    height: 0px;
+}
+
+.header_nav-top a{
+    font-size: 0px;
+}
+.header_main-communiti__nav{
+    padding: 0.5vh;
+}
+.header_main{
+    max-width: 100%;
+    display: inline;
+}
+.header_main-name{
+  padding: 0px;
+}
+.header_nav-bottom{
+    height: 0px;
+}
+.header_nav-top{
+    height: 0px;
+}
+.header_main-communiti__nav_search-form{
+    width: 250px;
+
+}
+.header_main-communiti__nav_search-form__txt{
+    width: 250px;
+}
+.fotter_top {
+    padding-right:3vh ;
+}
+.fotter_top a{
+font-size: 10px;
+}
+.header_main-communiti__nav-enter img{
+    width: 40px;
+}
+.header_main-communiti__nav_search-form__txt{
+    height: 40px;
+}
+.header_main-communiti__nav__number{
+    display: none;
+}
 }
