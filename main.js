@@ -1,14 +1,14 @@
 
 
 
-// let mySlider = new Splide( '#mySlider', {
-//     direction: 'ttb',
-//     width  : '100%',
-//     height : '65vh',
-//     wheel    : true,
-//   } );
+let mySlider = new Splide( '#mySlider', {
+    direction: 'ttb',
+    width  : '100%',
+    height : '65vh',
+    wheel    : true,
+  } );
 
-// mySlider.mount();
+mySlider.mount();
  
 document.addEventListener("DOMContentLoaded",function(){
   document.getElementById("burger").addEventListener("click", function(){
