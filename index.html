@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> TicTime</title>
-    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo.png">
 </head>
@@ -24,11 +24,11 @@
                 <p>TIME</p>
             </div>
             <div class="header_main-communiti">
-                <div class="header_main-communiti__slogan">Интернет магазин 
+                <div class="header_main-communiti__slogan">Интернет магазин
                 </div>
                 <div class="header_main-communiti__nav">
                     <div id="burger" class="header_main-communiti__burger">
-                        <span  class="header_main-communiti__burger-span">
+                        <span class="header_main-communiti__burger-span">
 
                         </span>
                     </div>
@@ -42,8 +42,10 @@
                     </div>
                     <a class="header_main-communiti__nav__number" href="tel:+88805050015">8(880) 505 0015</a>
                     <div class="header_main-communiti__nav-enter">
-                        <a href="#"><img src="login.ico" alt="" class="header_main-communiti__nav-enter__login"></img></a>
-                        <a href="#"><img src="shopping cart.ico" alt=""class="header_main-communiti__nav-enter__shopping-cart"></img></a>
+                        <a href="#"><img src="login.ico" alt=""
+                                class="header_main-communiti__nav-enter__login"></img></a>
+                        <a href="#"><img src="shopping cart.ico" alt=""
+                                class="header_main-communiti__nav-enter__shopping-cart"></img></a>
                     </div>
                 </div>
             </div>
@@ -73,42 +75,69 @@
 
 
     <main>
-     
-      <div class="test">
-
 
         
-      
-      
-      
-        <div class="container">
-            <section id="mySlider" class="splide" aria-label="Splide Basic HTML Example">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide">
-                            <source media="(max-width: 430px)" src="RUS-TEL.jpg">
-                            <img src="RUS.jpg" alt="">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="BRATVA.jpg" alt="">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="SASAI.jpg" alt="">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="smuta.jpg" alt="">
-                        </li>
-                        <li class="splide__slide">
-                            <img src="smutian.jpg" alt="">
-                        </li>
+            <div class="container">
+
+
+
+
+
+<div class="swiper">
+   
+    <div class="swiper-wrapper">
     
-                    </ul>
-                </div>
-            </section>
-        </div>
-    </div>
-        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+      <div class="swiper-slide"><img src="BRATVA.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="smuta.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="SASAI.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="RUS.jpg" alt=""></div>
      
+    </div>
+   
+    <div class="swiper-pagination"></div>
+  
+   
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </div> 
+
+
     </main>
 
     <footer>
@@ -160,8 +189,8 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
 
-</html> 
+</html>

@@ -3,6 +3,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
+   
 }
 
 * a {
@@ -347,12 +348,6 @@
 }
 
 
-.container {
-    height: 55vh;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
 
 @media(max-width:1000px) {
     .fotter_top__logo {
@@ -382,7 +377,7 @@
     }
 
     .header_main-name p {
-       display: none;
+        display: none;
     }
 
     .header_main__logo-veb {
@@ -393,17 +388,12 @@
         display: none;
     }
 
-    /* .header_nav-bottom a {
-       display: none;
-    } */
+
 
     .header_hzchtoeto {
         display: none;
     }
 
-    /* .header_nav-top a {
-        font-size: 0px;
-    } */
 
     .header_main-communiti__nav {
         padding: 0.5vh;
@@ -465,6 +455,7 @@
         top: 0;
         width: 100%;
         justify-content: space-around;
+        z-index: 3;
     }
 
     .header_main-communiti {
@@ -513,64 +504,125 @@
 
 
 
-.header_main::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    background-color: rgb(143, 89, 89);
-    z-index: 0;
-}
+    .header_main::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        background-color: rgb(143, 89, 89);
+        z-index: 0;
+    }
 
 
-.header_nav a{
-    font-size:1.3rem;
-}
+    .header_nav a {
+        font-size: 1.3rem;
+    }
 
 
 
 
-.header_nav{
-    position: fixed;
-    top: 1;
-    left: -100%;
-    width: 100%;
-    height: 90%;
-    transition: transform .5s;
-    z-index: 1;
-}
-.header_nav-top ,.header_nav-bottom{
-    height: 32%;
-    background-color: rgb(252, 233, 242);
-    display: grid;
-    
-    justify-items: stretch;
-    justify-content: space-between;
-    grid-template-columns: repeat(2, 1fr);
-}
-.header_nav-top a{
-    color: black;
-    
-}
+    .header_nav {
+        position: fixed;
+        top: 1;
+        left: -100%;
+        width: 100%;
+        height: 90%;
+        transition: transform .5s;
+        z-index: 1;
+    }
 
-.header_nav.open {
-transform: translate(100%);
+    .header_nav-top, .header_nav-bottom {
+        height: 32%;
+        background-color: rgb(252, 233, 242);
+        display: grid;
 
-}
+        justify-items: stretch;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header_nav-top a {
+        color: black;
+
+    }
+
+    .header_nav.open {
+        transform: translate(100%);
+
+    }
 
     /* БУРГЕР */
 
-
-
-    .test {
-        height: auto;
+    /* слайдер телефон начало*/
+    .swiper {
         width: 100%;
-       
-    }
-    .splide__list img{
         z-index: 0;
     }
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* слайдер телефон конец*/
 }
+
+/* слайдер пк начало*/
+
+
+.swiper {
+    max-width: 2560px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+    border: 10px solid purple;
+
+}
+
+.swiper-wrapper {
+    box-sizing: content-box;
+
+}
+
+.swiper-slide {
+
+    display: flex;
+
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.swiper-pagination-bullet-active {
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+/* слайдер пк конец*/
